@@ -25,18 +25,25 @@ body{
     /* border-radius: 10px; */
 }
 /* features */
+
 .features{
     padding-top: 3rem;
-text-align: center;
+
 /* display: flex;
 flex-direction: column; */
-margin-left:15vw;
+margin-left:20vw;
 margin-right:15vw;
 }
 .flex{
     display: flex;
     padding: 2rem;
-   
+ 
+}
+.feature-head{
+    display: grid;
+    justify-content: left;
+    padding-left: 3rem;
+    width:60vw;
 }
 /* button */
 .button{
